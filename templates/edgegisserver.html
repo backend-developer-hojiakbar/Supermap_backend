@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="con text-center">
+        <div class="box">
+            <div class="container"> 
+                <h1 class="title">Edge GIS serveri</h1>
+                <div class="sub-title">Edge GIS hisoblash serveri</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ny_box">
+        <div class="container sm-container  margin-60">
+            <h2 class="sub_title">Ko‘rib chiqish</h2>
+            <p>Mijoz yoki ma'lumot manbasi yaqinida o'rnatiladigan chekka GIS serveri real vaqt rejimida nashr qilish va xizmat ko'rsatish, shuningdek, real vaqt rejimida tahlil qilish va hisoblash, javob kutish vaqti va tarmoqli kengligi sarfini kamaytirish va bulutli GIS yukini kamaytirish uchun mo'ljallangan. markaz.</p>
+            <p>U bulut va GIS dastur terminallari o'rtasida chekka tugun sifatida ishlatilishi mumkin. Xizmat proksi-serverlarini yig'ish va keshlash tezlashtirish texnologiyasidan foydalanib, u bulutli GISning terminalga kirish imkoniyatlarini samarali yaxshilashi, kontentni taqsimlash, chekka tahlil va hisoblash qobiliyatini ta'minlashi va yanada samarali va aqlli "bulutli chekka" GIS dastur tizimini yaratishga yordam berishi mumkin.</p>
+        </div>
+    </div>
+
+    <div class="bgf5">
+        <div class="container">
+            <h2 class="sub_title">Xususiyatlari</h2>
+            <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="feature">
+                            <img class="img-fluid" src="{% static 'imgs/fea01.jpg' %}" alt="">
+                            <h4>Edge kontentni taqsimlash</h4>
+                            <ul>
+                                <li>Samarali va ishonchli tarqatish texnologiyasi: GIS ma'lumotlarini bulutli GIS markazidan periferik tugunlarga tez va xavfsiz tarqatadi.</li>
+                                <li>Moslashuvchan va qulay tarqatish usuli: mintaqa va vaqt bo'yicha taqsimlash.</li>
+                                <li>Bir nechta tarqatish ma'lumotlar turlari: xarita plitalari, vektor plitalari, 3D plitkalar va xom GIS ma'lumotlarini tarqatadi.</li>
+                                <li>Kuchli xizmatlarni tarqatish imkoniyatlari: SuperMap REST xizmatlarini, standart OGC xizmatlarini, uchinchi tomon xizmatlarini va boshqalarni tarqatadi.</li>
+                                <li>Bulutli GIS markazidan xarita parchalari va vektor ma'lumotlarini qo'llab-quvvatlaydi, ular mintaqa, vaqt va xavfsizlikka qarab chekka tugunlar o'rtasida taqsimlanishi kerak.</li>
+                                <li>Har xil turdagi xizmatlarni nashr qilish interfeyslarini taqdim etadi va SuperMap REST xizmatlari, standart OGC xizmatlari, uchinchi tomon xizmatlari va boshqa interfeyslar kabi taqsimlangan ma'lumotlarni nashr qilishni qo'llab-quvvatlaydi.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="feature">
+                            <img class="img-fluid" src="{% static 'imgs/fea02.jpg' %}" alt="">
+                            <h4>Chetlarni tahlil qilish va hisoblash</h4>
+                            <ul>
+                                <li>Yon dinamik chizma: mahalliy ma'lumotlarni vizualizatsiya qilish.</li>
+                                <li>Edge Tile Publishing: Xarita plitkalarini, vektor plitkalarini, 3D plitkalarini nashr etadi.</li>
+                                <li>Edge ma'lumotlar so'rovi: Mahalliy ma'lumotlar maydoni so'rovi, atribut so'rovi.</li>
+                                <li>Qirralarni qayta ishlash tahlili: o'lchash, koordinatalarni o'zgartirish, fazoviy aloqalar, fazoviy hisoblash.</li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="feature">
+                        <img class="img-fluid" src="{% static 'imgs/fea03.jpg' %}" alt="">
+                        <h4>Edge pre-proksi va tezlashtirish</h4>
+                        <ul>
+                            <li>SuperMap REST yordam stoli, OGC xizmati.</li>
+                            <li>Samarali xizmatni tezlashtirish mexanizmi xizmat ko'rsatish hajmi va ishonchliligini sezilarli darajada yaxshilaydi.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="feature">
+                        <img class="img-fluid" src="{% static 'imgs/fea04.jpg' %}" alt="">
+                        <h4>Edge xizmatlarini yig'ish</h4>
+                        <ul>
+                            <li>Turli manbalardan olingan har xil turdagi xaritalar/ma'lumotlar yig'ilishini qo'llab-quvvatlang va ularni yana xizmatlar sifatida ko'rsating.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ {% endblock content %}

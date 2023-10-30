@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header d-flex align-items-center justify-content-center">
+    <div class="container-sm text-center">
+        <h1 class="h1 text-white">SuperMap GIS haqida</h1>
+        <p>SuperMap GIS SuperMap Software Co., Ltd tomonidan ishlab chiqilgan. Bu ish stoli GIS, xizmat GIS, komponent GIS va mobil GIS platformalari, shuningdek, fazoviy ma'lumotlarni ishlab chiqarish, qayta ishlash va boshqarish vositalarini o'z ichiga olgan GIS platformasi uchun to'liq dasturiy ta'minot to'plami.
+        </p>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- text -->
+  <section class="text-data">
+    <div class="container-sm text text-center">
+      <h2>SuperMap GIS</h2>
+      <p>SuperMap GIS SuperMap Software Co., Ltd tomonidan ishlab chiqilgan. Bu ish stoli GIS, xizmat GIS, komponent GIS va mobil GIS platformalari, shuningdek, fazoviy ma'lumotlarni ishlab chiqarish, qayta ishlash va boshqarish vositalarini o'z ichiga olgan GIS platformasi uchun to'liq dasturiy ta'minot to'plami. Uzluksiz texnologik innovatsiyalar, bozorni o'rganish va tajriba to'plash orqali SuperMap GIS to'liq burchakli va turli sohalarning turli talablariga javob beradigan kuchli funktsiyalarga ega bo'lgan yaxshi brend GIS dasturiy ta'minotini yaratdi va u har bir GISda keng qo'llanildi. Xitoyda sanoat, ko'plab ikkilamchi rivojlanish kompaniyalarini ilhomlantirmoqda.</p>
+    </div>
+  </section>
+  <!-- text end -->
+  <!-- newproduct -->
+  <section class="newproduct">
+    <h2 class="text-center">Eng so'nggi mahsulotlar</h2>
+    <div class="container-sm">
+      <div class="row">
+        <div class="col-md-6 product-left">
+          <img class="img-fluid" src="{% static 'imgs/newproduct.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 product-right d-flex align-items-center">
+          <div class="product-text">
+            <h4>SuperMap GIS 10i AI texnologiyasini to'liq birlashtiradi va GIS platformasi dasturiy ta'minoti uchun beshta asosiy texnologiyadan iborat "BitCC" tizimini yaratadi. U katta ma'lumotlar GIS, AI GIS, yangi 3D GIS, Cloud Native GIS va o'zaro platforma GISni o'z ichiga oladi, bu GIS nazariyasi va texnologiyasini sezilarli darajada yaxshilaydi va turli sohalar uchun geo-razvedkani boyitadi.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- newproduct end -->
+  <!-- new technology -->
+  <section class="technology">
+    <div class="container-sm">
+      <h2 class="text-center">Yuqori texnologiyali</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-2 col-12 d-flex flex-column align-items-center">
+          <img src="{% static 'imgs/techno1.png' %}" alt="">
+          <h3 class="text-center">AI GIS</h3>
+        </div>
+        <div class="col-md-2 col-12 d-flex flex-column align-items-center">
+          <img src="{% static 'imgs/techno2.png' %}" alt="">
+          <h3 class="text-center">O'zaro platforma</h3>
+        </div>
+        <div class="col-md-2 col-12  d-flex flex-column align-items-center">
+          <img src="{% static 'imgs/techno3.png' %}" alt="">
+          <h3 class="text-center">Cloud Native GIS</h3>
+        </div>
+        <div class="col-md-2 col-12 d-flex flex-column align-items-center">
+          <img src="{% static 'imgs/techno4.png' %}" alt="">
+          <h3 class="text-center">Yangi 3D GIS</h3>
+        </div>
+        <div class="col-12 col-md-2 d-flex flex-column align-items-center">
+          <img src="{% static 'imgs/techno5.png' %}" alt="">
+          <h3 class="text-center">Katta GIS ma'lumotlari</h3>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- new technology end -->
+{% endblock content %}

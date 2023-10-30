@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">O'zaro platforma GIS</h1>
+        <p>Bir nechta protsessor arxitekturasi va operatsion tizimlarini qo'llab-quvvatlaydi</p>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p class="text-center">2001 yildan boshlab GIS yadrosini rekonstruksiya qilish uchun C++ standarti asosida yuqori unumdorlikka ega va bir nechta protsessorlarni qo‘llab-quvvatlovchi mahalliy o‘zaro platformali GIS texnologiya tizimlari to‘plami yaratilgan operatsion tizim yaratildi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- property -->
+  <section class="property">
+    <h2 class="text-center">Xususiyatlari</h2>
+    <div class="container">
+      <div class="prop-card text-center">
+        <img src="{% static 'imgs/img1.jpg' %}" alt="">
+        <h3>Bir nechta protsessor arxitekturasini qo'llab-quvvatlaydi</h3>
+        <p>Protsessorlar: x86, Power, ARM, MIPS, Alpha va boshqalar.</p>
+      </div>
+      <div class="prop-card text-center">
+        <img src="{% static 'imgs/img2.jpg' %}" alt="">
+        <h3>Bir nechta operatsion tizimlarni qo'llab-quvvatlaydi</h3>
+        <p>Operatsion tizimlar: Linux, Windows, Android, iOS va boshqalar.</p>
+      </div>
+      <div class="prop-card text-center">
+        <img src="{% static 'imgs/img2.jpg' %}" alt="">
+        <h3>Bir nechta ma'lumotlar bazalarini qo'llab-quvvatlaydi</h3>
+        <p>Bir qator ma'lumotlar bazalarini qo'llab-quvvatlaydi: fayl turi, aloqa turi, NoSQL va boshqalar.</p>
+      </div>
+      <div class="prop-card text-center">
+        <img src="{% static 'imgs/img3.jpg' %}" alt="">
+        <h3>Bir qator ma'lumotlar bazalarini qo'llab-quvvatlaydi: fayl turi, aloqa turi, NoSQL va boshqalar.</h3>
+      </div>
+    </div>
+  </section>
+  <!-- property end -->
+ {% endblock content %}

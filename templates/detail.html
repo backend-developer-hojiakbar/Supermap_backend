@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- content -->
+    <section class="content">
+      <div class="container">
+        <h1 class="content-title ms-5">RDSC tomonidan muvaffaqiyatli SuperMap qisqa sud o'quv dasturiga nazar tashlab</h1>
+        <p class="content-info ms-5">28 – 30 avgust kunlari “Smart City Solution” tadqiqot va ishlanmalar bo‘limi: RDSC, Arxitektura fakulteti, Mahasarakham universiteti, SuperMapning Tailanddagi hamkori “SuperMap GIS dasturiy ta’minoti bilan aqlli shaharni rivojlantirish” mavzusida qisqa muddatli o‘quv dasturini o‘tkazdi. Arxitektura, shahar dizayni va ijodiy san'at fakulteti, Mahasarakham universiteti. Ushbu dasturda turli viloyatlardagi davlat sektorlaridan ishtirokchilar ishtirok etishdi.</p>
+        <div class="d-flex justify-content-center">
+          <img class="w-50" src="{% static 'imgs/content-img.png' %}" alt="">
+        </div>     
+      </div>
+    </section>
+    <!-- content end -->
+    <!-- detail -->
+    <section class="detail">
+      <div class="container">
+        <div class="detail-text d-flex justify-content-between">
+          <h2>Ko'proq Yangiliklar</h2>
+          <a class="more-link text-decoration-none" href="#!">Barcha yangiliklarni ko'rish ></a>
+        </div>
+        <div class="row">
+          <div class="col-md-3 detail-card">
+            <img class="img-fluid" src="{% static 'imgs/detail-1.png' %}" alt="">
+            <h4 class="bg-light">SuperMap Joined RDSC in HACKaTHAILAND 2023</h4>
+          </div>
+          <div class="col-md-3 detail-card">
+            <img class="img-fluid" src="{% static 'imgs/detail-1.png' %}" alt="">
+            <h4 class="bg-light">SuperMap Joined RDSC in HACKaTHAILAND 2023</h4>
+          </div>
+          <div class="col-md-3 detail-card">
+            <img class="img-fluid" src="{% static 'imgs/detail-1.png' %}" alt="">
+            <h4 class="bg-light">SuperMap Joined RDSC in HACKaTHAILAND 2023</h4>
+          </div>
+          <div class="col-md-3 detail-card">
+            <img class="img-fluid" src="{% static 'imgs/detail-1.png' %}" alt="">
+            <h4 class="bg-light">SuperMap Joined RDSC in HACKaTHAILAND 2023</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- detail end -->
+    
+ {% endblock content %}

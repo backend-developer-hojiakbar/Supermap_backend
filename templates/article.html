@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- content -->
+  <div class="content article-bg">
+    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="title">Maqolalar</h1>
+    </div>
+  </div>
+  <!-- content end -->
+  <!-- info -->
+  <div class="container">
+    <div class="row info">
+      <div class="col-10 info d-flex flex-column justify-content-center">
+        <a href="" class="text-decoration-none"><h3 class="info-title">GIS Fuxia aeroportini kengaytiradi va "To'rt turdagi aeroport" qurilishining yangi modelini yaratadi</h3></a>
+        <p class="info-text">"To'rt turdagi aeroport" xavfsizlik, yashil rivojlanish, aql va insoniylikka qaratilgan. Butun jarayonni va barcha elementlarni har tomonlama optimallashtirish orqali u xavfsiz ishlashga, ishlab chiqarishni murakkab va aqlli boshqarishga, konv...</p>
+        <span class="info-date">06 sentyabr, 2023 yil</span>
+      </div>
+      <div class="col-2">
+        <img class="w-100" src="{% static 'imgs/article-info.jpg' %}" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- news end --> 
+{% endblock content %}

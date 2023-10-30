@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header yermulk d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">Yerni boshqarish</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>SuperMap 20 yildan ortiq loyiha tajribasiga ega bo'lgan innovatsiyalar va yangi texnologiyalarni yer sanoatida qo'llashga qaratilgan. Er sanoatining yangi biznes ehtiyojlari bilan bog'liq holda, yer echimlari to'plami shakllantirilmoqda. U yer tuzish, axborotni boshqarish va qo'llash, yer monitoringi va tekshirishni o'z ichiga oladi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- platform -->
+  <section class="platform">
+    <div class="container">
+      <h2 class="text-center">Yer axborot tizimi SuperMap</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/yer1.jpg' %}" alt="">
+          <h4>Tizimning ko'p darajali xizmat tuzilmasi va funksionalligi mantiqiy jihatdan uch darajaga bo'linadi: taqdimot darajasi, dastur darajasi va ma'lumotlar darajasi.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/yer2.jpg' %}" alt="">
+          <h4>Biznes ehtiyojlariga qarab turli funktsional komponentlar taqdim etiladi.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/yer3.jpg' %}" alt="">
+          <h4>Yer ma'lumotlarini boshqarish tarixi va orqaga qaytish muammolarini hal qiladi.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- platform end -->
+  <!-- solution -->
+  <section class="solution">
+    <div class="container">
+      <h2 class="text-center">Yechimlar</h2>
+      <a class="text-decoration-none text-black" href="#!"><p class="text-end">Qo'shimcha ma'lumotlar olish uchun ></p></a>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/yer-map1.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Yaponiya axborot bulut xizmati</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Shahar boshqaruvi favqulodda qo'mondonlik tizimi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+        <div class="col-md-6 solution-card-left2">
+          <img class="img-fluid" src="{% static 'imgs/yer-map2.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/yer-map3.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>SuperMap 3D GIS ilovasi yer usti fazoviy axborot platformasida</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- solution end -->
+ {% endblock content %}

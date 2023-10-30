@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">AI GIS</h1>
+        <p>Bu AI va GISning integratsiyasi.</p>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>GIS AI quyidagi xususiyatlarni o'z ichiga oladi: <br>
+      1) GeoAI va tegishli jarayon vositalarini birlashtiradi <br>
+      2) GISga asoslangan boshqaruv, GeoAI natijalarini vizuallashtirish va tahlil qilish. <br>
+      3) AI-ga asoslangan GIS dasturiy ta'minotining foydalanuvchi interfeysi tajribasini, foydalanish va texnik xizmat ko'rsatish samaradorligini va boshqa funktsiyalarini targ'ib qilish va optimallashtirish.
+    </p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- property -->
+  <section class="property">
+    <h2 class="text-center">Xususiyatlari</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 prop-card">
+          <img src="{% static 'imgs/prop1.jpg' %}" alt="">
+          <p>Mahsulotlarning to'liq assortimentini qamrab oluvchi AI GIS funksiyasini ta'minlaydi</p>
+          <ul>
+            <li>Komponent: SuperMap iObjects Python</li>
+            <li>Ish stoli: Mashinani o'rganish vositalari</li>
+            <li>Server: Mashinani o'rganish xizmatlari, ma'lumotlar fanlari xizmatlari</li>
+            <li>Mobil: dinamik video nishonni aniqlash va kuzatish</li>
+          </ul>
+        </div>
+        <div class="col-md-4 prop-card">
+          <img src="{% static 'imgs/prop2.jpg' %}" alt="">
+          <p>AI GIS ish oqimi vositasi namuna yaratish, modelni o'rgatish va qo'llash asoslarini qo'llab-quvvatlaydi. </p>
+        </div>
+        <div class="col-md-4 prop-card">
+          <img src="{% static 'imgs/prop3.jpg' %}" alt="">
+          <p>Fazoviy statistik operatorning ko'pligini ta'minlaydi</p>
+          <ul>
+            <li>Fazoviy avtokorrelyatsiya va fazoviy heterojenlik xususiyatlarining umumiy fazoviy tahlili va boshqalar.</li>
+            <li>Yadro zichligi, teskari masofa og'irligi, kriging va boshqalarni fazoviy interpolyatsiya qilish usullari.</li>
+            <li>Fazoviy strukturani, fazoviy nuqtani va boshqalarni o'rganish.</li>
+            <li>Eng kichik kvadratlar regressiyasi, geografik regressiya va boshqalardan foydalangan holda fazoviy regressiya algoritmi.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- property end -->
+{% endblock content %}

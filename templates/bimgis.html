@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header bimgis d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">BIM+GIS</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>BIM binoning butun hayot aylanishini boshqarish uchun ishlatiladi, GIS binoning tashqi muhiti haqidagi ma'lumotlarni boshqarish uchun ishlatiladi. BIMning butun hayot aylanishini boshqarish GISni jalb qilishni talab qiladi. Va BIM va GIS integratsiyasi mikrodomendagi BIM ma'lumotlari va makrodomendagi GIS ma'lumotlarining almashinuvi va mosligini ta'minlaydi. Hozirgi vaqtda BIM + GIS ko'priklar, quvurlar, binolar, yo'llar, to'g'onlar, tunnellar va boshqa sohalarda qo'llaniladi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- solution -->
+  <section class="solution">
+    <div class="container">
+      <h2 class="text-center">Yechimlar</h2>
+      <a class="text-decoration-none text-black" href="#!"><p class="text-end">Qo'shimcha ma'lumotlar olish uchun ></p></a>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/bim1.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Shahar yo'llari va ko'priklarni boshqarishda BIM + GIS</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>SuperMap BIM + GIS integratsiyasi texnologiyasi va yechimlari</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+        <div class="col-md-6 solution-card-left2">
+          <img class="img-fluid" src="{% static 'imgs/bim2.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/bim3.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Yo'l va ko'priklarni boshqarishning axborot tizimi loyihasi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- solution end -->
+{% endblock content %}

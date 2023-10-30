@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- content -->
+  <div class="content news-bg">
+    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="title">Yangiliklar</h1>
+      <div class="sub-title">So'nggi GIS yangiliklarini toping</div>
+    </div>
+  </div>
+  <!-- content end -->
+  <!-- info -->
+  <div class="container">
+    <div class="row info">
+      <div class="col-10 info d-flex flex-column justify-content-center">
+        <a href="" class="text-decoration-none"><h3 class="info-title">RDSC tomonidan muvaffaqiyatli SuperMap qisqa sud o'quv dasturiga nazar tashlab</h3></a>
+        <p class="info-text">28-30 avgust kunlari “Smart City” yechimi bo‘yicha tadqiqot va ishlanmalar bo‘limi: RDSC, Arxitektura fakulteti, Mahasarakham universiteti, SuperMapning Tailanddagi ta’lim bo‘yicha hamkori “Aqlli shaharni rivojlantirish…” mavzusida qisqa muddatli o‘quv dasturini o‘tkazdi.</p>
+        <span class="info-date">05 sentyabr, 2023 yil</span>
+      </div>
+      <div class="col-2">
+        <img class="w-100" src="{% static 'imgs/news-info.png' %}" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- news end --> 
+ {% endblock content %}

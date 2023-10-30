@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- content -->
+  <div class="content joinus-bg">
+    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="title">Bizga qo'shiling</h1>
+      <div class="sub-title">Birgalikda global yetakchi GISer bo'lish!</div>
+    </div>
+  </div>
+  <!-- content end -->
+  <!-- info -->
+  <div class="container">
+    <h2 class="text-center mb-5">ISHGA OLAMIZ!</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-fluid" src="{% static 'imgs/join1.jpg' %}" alt="">
+        <h3 class="text-center mt-2">Yevropa va Afrika</h3>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid" src="{% static 'imgs/join2.jpg' %}" alt="">
+        <h3 class="text-center mt-2">Osiyo va Avstraliya</h3>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid" src="{% static 'imgs/join3.jpg' %}" alt="">
+        <h3 class="text-center mt-2">Amerika</h3>
+      </div>
+    </div>
+  </div>
+  <!-- news end --> 
+ {% endblock content %}

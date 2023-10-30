@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">Asosiy texnologiyalar</h1>
+        <p>GIS dasturiy ta'minotini targ'ib qilish uchun motivatsiya.</p>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- strategy -->
+  <section class="strategy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 strategy-left d-flex align-items-center">
+          <p>SuperMap GIS 10i GIS platformasi dasturiy ta'minoti uchun beshta asosiy texnologiya "BitCC" tizimini yaratish uchun sun'iy intellekt texnologiyasi va katta ma'lumotlar GIS, yangi 3D GIS, Cloud Native GIS va kross-platforma GISning keyingi innovatsiyalarini birlashtiradi.</p>
+        </div>
+        <div class="col-md-6 strategy-right">
+          <img src="{% static 'imgs/gis-strategy.jpg' %}" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- strategy end -->
+  <!-- key_body -->
+  <section class="key_body">
+    <div class="container position-relative">
+      <div class="row flex_box d-flex flex-wrap flex-row">
+        <div class="col-md-6 col-12 keys_left"></div>
+        <div class="col-md-6 col-12 keys_right">
+          <ul class="key row">
+            <li class="col-12 d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <img src="{% static 'imgs/mind.jpg' %}" alt="">
+                <h4>AI GIS</h4> 
+              </div>
+              <a href="#!">
+                batafsil >
+              </a>
+            </li>
+            <li class="col-12 d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <img src="{% static 'imgs/data.jpg' %}" alt="">
+                <h4>Katta ma'lumotlar GIS</h4> 
+              </div>
+              <a href="#!">
+                batafsil >
+              </a>
+            </li>
+            <li class="col-12 d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <img src="{% static 'imgs/box.jpg' %}" alt="">
+                <h4>Yangi 3D GIS</h4> 
+              </div>
+              <a href="#!">
+                batafsil >
+              </a>
+            </li>
+            <li class="col-12 d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <img src="{% static 'imgs/cloud.jpg' %}" alt="">
+                <h4>Bulutli GIS</h4> 
+              </div>
+              <a href="#!">
+                batafsil >
+              </a>
+            </li>
+            <li class="col-12 d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <img src="{% static 'imgs/laptop.jpg' %}" alt="">
+                <h4>O'zaro platforma GIS</h4> 
+              </div>
+              <a href="#!">
+                batafsil >
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- key_body end -->
+{% endblock content %}

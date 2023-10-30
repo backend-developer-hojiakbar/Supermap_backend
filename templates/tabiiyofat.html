@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header tabiiyofat d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">Tabiiy ofat</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>Tabiiy ofatlar insonning omon qolishiga yoki atrof-muhitga zarar etkazadi. SuperMap ofatlar haqida xabar berish, ofat ma'lumotlarini yig'ish vazifalarini boshqarish, joyida to'plash va hisobot berish, ko'p terminalli vazifalarni muvofiqlashtirish, ofat joyi xaritasi xizmati, voqea joyida tekshirish, ofatni baholash, ofat ma'lumotlarini keng qamrovli nashr etish xizmati, ofat ma'lumotlarini so'rash va almashishni qo'llab-quvvatlaydi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- solution -->
+  <section class="solution">
+    <div class="container">
+      <h2 class="text-center">Yechimlar</h2>
+      <a class="text-decoration-none text-black" href="#!"><p class="text-end">Qo'shimcha ma'lumotlar olish uchun ></p></a>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/tabiiy1.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Yaponiya ofatlar xaritasi portali</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Zilziladan qutqarish axborot tizimi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+        <div class="col-md-6 solution-card-left2">
+          <img class="img-fluid" src="{% static 'imgs/tabiiy2.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/tabiiy3.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Koreyadagi SuperMap o'rmon falokatlarini boshqarish tizimi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- solution end -->
+ {% endblock content %}

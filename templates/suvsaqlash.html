@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header suvsaqlash d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">Suvni tejash</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>Suv xo‘jaligi qurilishini axborotlashtirish suv xo‘jaligi ishlarini takomillashtirish va innovatsiya qilishning muhim usuli, shuningdek, suv xo‘jaligini isloh qilish va rivojlantirishning muhim harakatlantiruvchi kuchi hisoblanadi. Suv resurslarini muhofaza qilish bo‘yicha axborotlashtirishni qurish markazlashtirilmagan ma’lumotlar bazasini yaratishdan boshlab ma’lumotlarni qayta ishlash markazini qurishgacha, qisman qo‘llashdan birgalikda qo‘llashgacha bo‘lgan rivojlanish jarayonidan o‘tadi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- platform -->
+  <section class="platform">
+    <div class="container">
+      <h2 class="text-center">Fazoviy suv almashinuvi axborot almashinuvi xizmati</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/suv1.jpg' %}" alt="">
+          <h4>Funktsional modellarning amaliy kutubxonasini taqdim etadi va foydalanuvchilarga suvni boshqarishning professional tahlili modelini taqdim etadi.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/suv2.jpg' %}" alt="">
+          <h4>2D va 3D displey, so'rov va suvni tejash ma'lumotlarini tahlil qilish xizmatlarini taqdim etadi.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/suv3.jpg' %}" alt="">
+          <h4>Ideal foydalanish va texnik xizmat ko'rsatishni boshqarish tizimi.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- platform end -->
+  <!-- solution -->
+  <section class="solution">
+    <div class="container">
+      <h2 class="text-center">Yechimlar</h2>
+      <a class="text-decoration-none text-black" href="#!"><p class="text-end">Qo'shimcha ma'lumotlar olish uchun ></p></a>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/suvmap.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>BYalong daryosi GESining raqamli hayot aylanishini boshqarishda BIM + GIS ilovasi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- solution end -->
+ {% endblock content %}

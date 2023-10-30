@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- header -->
+  <header class="header aqllishahar d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+        <h1 class="h1 text-white">Aqlli shahar</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- critic -->
+  <section class="critic">
+    <div class="container">
+      <h2 class="text-center">Ko‘rib chiqish</h2>
+      <p>Hozirgi vaqtda aqlli shaharlar qurilishi innovatsion texnologiyalardan foydalangan holda pragmatik rivojlanishning yangi bosqichiga kirdi. Shu bilan birga, ko'plab sohalar tufayli tarmoqlararo ma'lumotlarning katta miqdori mavjud. Murakkab ma'lumotlar va ma'lumotlarni birlashtirish fazoviy geografik ma'lumotlarni to'plash va ulardan foydalanishni talab qiladi.</p>
+    </div>
+  </section>
+  <!-- critic end -->
+  <!-- platform -->
+  <section class="platform">
+    <div class="container">
+      <h2 class="text-center">Spatio-temporal katta ma'lumotlar platformasi</h2>
+      <p>Platforma shahar axborot resurslarini almashish, almashish va muvofiqlashtirish imkonini beradi hamda shaharsozlik, qurilish, boshqaruv va xizmatlarning kompleks qo‘llanilishini qo‘llab-quvvatlaydi.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/smart1.jpg' %}" alt="">
+          <h4>Katta maʼlumotlarni toʻplash, qurish, boshqarish, almashish, qazib olish, tahlil qilish va xizmat koʻrsatish.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/smart2.jpg' %}" alt="">
+          <h4>Ob'ektlar kutubxonasi, indikator kutubxonasi, model kutubxonasi va bilimlar kutubxonasini yaratadi.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="{% static 'imgs/smart3.jpg' %}" alt="">
+          <h4>Shahar haqidagi turli xil asosiy, tematik va dinamik ma'lumotlarni samarali birlashtiradi.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- platform end -->
+  <!-- solution -->
+  <section class="solution">
+    <div class="container">
+      <h2 class="text-center">Yechimlar</h2>
+      <a class="text-decoration-none text-black" href="#!"><p class="text-end">Qo'shimcha ma'lumot olish uchun</p></a>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/solution1.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Big Data - Signal ma'lumotlari shaharlarni aqlli qiladi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Smart City - Shanxay markazida BIM ilovasi</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+        <div class="col-md-6 solution-card-left2">
+          <img class="img-fluid" src="{% static 'imgs/solution2.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 solution-card-left">
+          <img class="img-fluid" src="{% static 'imgs/solution3.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6 solution-card-right d-flex flex-column justify-content-center">
+          <h3>Aqlli shahar - Pekinning eski imperatorlik shahrida ilova</h3>
+          <p><a href="#!" class="text-black text-decoration-none">tafsilotlar ></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- solution end -->
+{% endblock content %}
